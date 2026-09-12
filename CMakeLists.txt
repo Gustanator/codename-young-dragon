@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.12...4.0)
+
+project(Antarctica)
+
 # CMakeLists.txt for Irrlicht in STK
 if(NOT SERVER_ONLY)
     find_package(PNG REQUIRED)
